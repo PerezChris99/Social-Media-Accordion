@@ -155,3 +155,21 @@ header h1 {
 .github a:after {
     background-color: #6e5494;
 }
+
+@media(max-width: 950px) {
+    .container {
+        width: 70%;
+    }
+
+    .tab {
+        display: block;
+        width: 100%;
+        border-bottom: 3px #333 solid;
+    }
+
+    .accordion {
+        display: block;
+        min-width: 450px;
+        height: auto;
+    }
+}
