@@ -82,7 +82,7 @@ header h1 {
 
 .social a:before,
 .social a:after {
-    transition: all 0.4s ease-i-out 0.1s;
+    transition: all 0.4s ease-in-out 0.1s;
     width: 80px;
     height: 200px;
     position: absolute;
@@ -110,4 +110,13 @@ header h1 {
 
 .youtube a:after {
     background-color: #ff0000;
+}
+
+.twitter a:before,
+.twitter a:after {
+    content: '\f202';
+}
+
+.twitter a:after {
+    background-color: #6dc5dd;
 }
