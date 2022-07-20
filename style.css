@@ -49,3 +49,23 @@ header h1 {
 .tab:hover {
     width: 450px;
 }
+
+.tab .content {
+    background: #fff;
+    width: 360px;
+    height: 200px;
+    margin-left: 80px;
+    position: relative;
+    padding: 50px 0 0 15px;
+}
+
+.tab .content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.tab .content p {
+    font-size: 0.85rem;
+    line-height: 1.4rem;
+    padding-right: 30px;
+}
