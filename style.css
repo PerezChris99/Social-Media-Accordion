@@ -129,3 +129,12 @@ header h1 {
 .facebook a:after {
     background-color: #3b5998;
 }
+
+.linkedin a:before,
+.linkedin a:after {
+    content: '\f208';
+}
+
+.linkedin a:after {
+    background-color: #00a9cd;
+}
