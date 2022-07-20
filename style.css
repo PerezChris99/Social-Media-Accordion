@@ -11,7 +11,7 @@ body {
 @font-face {
     font-family: 'Genericons';
     src: url('fonts/genericons-regular-webfont')format('woff'),
-    url('fonts/genericons-regular-webfont.eot')format('truetype'),
+    url('fonts/genericons-regular-webfont.eot')format('truetype')
 }
 
 .container {
@@ -31,4 +31,21 @@ header h1 {
     list-style-type: none;
     overflow: hidden;
     height: 200px;
+    font-size: 0;
+}
+
+.tab {
+    display: inline-block;
+    background-color: #444;
+    border-right: #333 solid 1px;
+    width: 80px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+    transition: all 0.5s ease-in-out 0.1s;
+}
+
+.tab:hover {
+    width: 450px;
 }
