@@ -147,3 +147,11 @@ header h1 {
 .instagram a:after {
     background-color: #6dc993;
 }
+
+.github a:before,
+.github a:after {
+    content: '\f200';
+}
+.github a:after {
+    background-color: #6e5494;
+}
