@@ -18,3 +18,17 @@ body {
     margin: 50px auto;
     width: 90%;
 }
+header h1 {
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.accordion {
+    background: #333;
+    width: 100%;
+    min-width: 800px;
+    display: block;
+    list-style-type: none;
+    overflow: hidden;
+    height: 200px;
+}
