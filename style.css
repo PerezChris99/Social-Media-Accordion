@@ -25,6 +25,7 @@ header h1 {
     margin-bottom: 10px;
     text-align: center;
 }
+
 .accordion {
     background: #333;
     width: 100%;
@@ -171,5 +172,23 @@ header h1 {
         display: block;
         min-width: 450px;
         height: auto;
+    }
+
+    .tab .content{
+        width: 85%;
+    }
+    .tab:hover {
+        width: 100%;
+    }
+}
+
+@media(max-width: 680px) {
+    .container {
+        width: 95%;
+    }
+
+    .accordion {
+        width: 100%;
+        min-width: 350px;
     }
 }
