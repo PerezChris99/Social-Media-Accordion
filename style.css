@@ -120,3 +120,12 @@ header h1 {
 .twitter a:after {
     background-color: #6dc5dd;
 }
+
+.facebook a:before,
+.facebook a:after {
+    content: '\f204';
+}
+
+.facebook a:after {
+    background-color: #3b5998;
+}
