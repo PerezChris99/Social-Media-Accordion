@@ -138,3 +138,12 @@ header h1 {
 .linkedin a:after {
     background-color: #00a9cd;
 }
+
+.instagram a:before,
+.instagram a:after {
+    content: '\f215'
+}
+
+.instagram a:after {
+    background-color: #6dc993;
+}
